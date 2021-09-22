@@ -1,0 +1,36 @@
+body {
+  background-color: #9266ff;
+}
+.App {
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#todolist input {
+  background-color: cadetblue;
+  border: 0;
+  width: 50%;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 20px;
+}
+#todolist input::placeholder {
+  color: aliceblue;
+}
+#todolist input:focus,
+#todolist buton:focus {
+  outline: none;
+}
+#todolist button {
+  height: 50px;
+  width: 80px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(202, 156, 24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}
